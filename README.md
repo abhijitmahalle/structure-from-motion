@@ -17,6 +17,17 @@ Following steps are involved:
 python Wrapper.py --Path PATH_TO_DATA --Filtered False
 ```
 ## Result
-Bundle Adjustment
+### Feature Matching using SIFT and RANSAC
+![feature matching](https://user-images.githubusercontent.com/90370308/222005261-3c35443a-a23e-4ad1-9f88-b6f92a126ba5.png)
 
-<img src ="Data/Results/BundleAdjustment56.png" width=400/>
+### Triangulation check for Cheirality Condition
+![all_poses](https://user-images.githubusercontent.com/90370308/222008248-e8bec6d5-b87c-45df-89b6-08b1d9ce333b.png)
+
+### Non-Linear Triangulation
+![linear_nonlinear](https://user-images.githubusercontent.com/90370308/222008621-e1d88b49-75f6-461e-a8af-4798b1cd9ce9.png)
+
+### Linear Camera Pose Estimation
+![PnP56](https://user-images.githubusercontent.com/90370308/222008862-53869898-0084-4b9d-b764-46be92277d4e.png)
+
+### Bundle Adjustment and Sparse Scene Reconstruction
+![BundleAdjustment56](https://user-images.githubusercontent.com/90370308/222008894-d65dfeae-db6d-40e4-a173-2f51f451417c.png)
